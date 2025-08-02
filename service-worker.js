@@ -3,10 +3,10 @@ const FILES_TO_CACHE = [
   "/",
   "/index.html",
   "/style.css",
-  "/script.js", // only if you have it
+  "/index.js", // only if you have it
   "/manifest.json",
-  "/icons/icon-192.png",
-  "/icons/icon-512.png",
+  "/icons/",
+  ,
 ];
 
 self.addEventListener("install", (event) => {
